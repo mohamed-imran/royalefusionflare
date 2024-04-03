@@ -14,7 +14,7 @@ body {
 
 .translucent-bg {
     /* White background with 0.7 opacity */
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.7);
     /* Add your desired padding */
     padding: 20px;
     /* Add other styles as needed */
@@ -48,7 +48,8 @@ a:visited{
 
 /* mouse over link */
 a:hover {
-  color: rgb(247, 210, 89);
+  color: rgb(115, 115, 115);
+  font-weight: bold;
 }
 
 
