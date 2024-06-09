@@ -1,6 +1,0 @@
-## Map Code
-
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2448.819369638147!2d-0.46921418727455105!3d52.13760717184662!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4877b6db2eb2ba4f%3A0xa4d49a732c75bb65!2s89%20High%20St%2C%20Bedford%20MK40%201NE%2C%20UK!5e0!3m2!1sen!2sca!4v1717950394278!5m2!1sen!2sca" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-
-http://via.placeholder.com/140x140
