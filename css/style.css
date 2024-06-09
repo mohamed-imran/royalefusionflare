@@ -1,0 +1,162 @@
+* {
+  font-family: "Barlow", sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background: #dedede;
+}
+
+.footer {
+  background: #222;
+  color: #fff;
+  padding: 5px 0;
+  text-align: center;
+  position: absolute;
+  position: fixed;
+    bottom: 0pt;
+    left: 0pt;
+    width: 100%;
+}
+
+.navbar {
+  min-height: 80px;
+}
+
+/* Modify the background color */
+.navbar-custom {
+  background: transparent;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Modify the background color */
+.navbar:hover,
+.navbar-custom :hover {
+  background: rgb(255, 255, 255);
+}
+
+/* Modify brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+  color: rgb(1, 1, 1);
+}
+
+.dropdown:hover .dropdown-menu {
+  /*display: block;*/
+  margin-top: 0; /* remove the gap so it doesn't close */
+}
+
+/* Dropdown menu background color*/
+.navbar-nav > li > .dropdown-menu {
+  background-color: #e7e7e7;
+}
+
+/* Dropdown menu font color*/
+.navbar-nav > li > .dropdown-menu a {
+  color: #555555;
+}
+
+@media (width <= 768px) {
+  /* Nav Bar full screen starts */
+  .navbar-toggler {
+    z-index: 1;
+  }
+
+  .navbar-collapse {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.9);
+    transition: transform 0.3s ease-in-out;
+    transform: translateX(100%);
+  }
+  .navbar-collapse.show {
+    transform: translateX(0);
+  }
+
+  .navbar-nav {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .nav-link {
+    font-size: 20rem;
+    color: #0c0c0c;
+    padding: 1rem;
+    text-align: center;
+  }
+  .nav-link:hover {
+    color: #ccc;
+  }
+
+  .nav-item {
+    font-size: 2.5rem;
+  }
+
+  /* Nav Bar full screen ends */
+}
+
+/* Set the border color to the desired color */
+.fancy-toggler .navbar-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.display-7 {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+i {
+  -webkit-text-stroke: 0.5px;
+}
+
+i:hover {
+  -webkit-text-stroke: 1px;
+  background-color: rgba(76, 76, 76, 0.2);
+}
+
+.text-slider-items {
+  display: none;
+}
+
+.black-overlay {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background: rgba(76, 76, 76, 0.4);
+  z-index: 1;
+}
+
+.carousel-content {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  z-index: 20;
+  color: white;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+}
+/* carousel style ends */
+
+.text-slider-items {
+  display: none;
+}

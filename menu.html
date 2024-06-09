@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+    <meta content="Royale Fusion Flare Restaurant UK" name="keywords" />
+    <meta content="Royale Fusion Flare Restaurant UK" name="description" />
+    <meta name="author" content="Royale Fusion Flare Restaurant UK" />
+
+    <!-- Favicon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./images/favicon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./images/favicon.png"
+    />
+    <link rel="mask-icon" href="./images/favicon.png" color="#5bbad5" />
+    <meta name="msapplication-TileColor" content="#8b06fb" />
+    <meta name="theme-color" content="#8b06fb" />
+
+    <title>Royale Fusion Flare Restaurant UK</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      href="./css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="./css/bootstrap-icons-1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="./css/button3d.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Scripts -->
+    <script
+      src="./scripts/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="./scripts/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+
+        <!-- Typed.js -->
+        <script src="./scripts/typed/typed.min.js"></script>
+
+            <!-- Typed.js -->
+            <script src="./scripts/config.js"></script>
+
+        <style>
+            .card {
+              backdrop-filter: blur(8px) saturate(126%);
+              -webkit-backdrop-filter: blur(8px) saturate(126%);
+              background-color: rgba(24, 24, 24, 0.75);
+              border-radius: 10px;
+              border: 1px solid rgba(17, 17, 17, 0.18);
+              font: 20px / 25px "Barlow", cursive;
+              width: 100px;
+              height: 40px;
+              text-align: center;
+              align-items: center;
+              justify-content: center;
+              color: black;
+              margin-right: 30px;
+              margin-top: 10px;
+            }
+      
+            .carousel-caption {
+              font: 20px / 28px "Barlow", cursive;
+            }
+      
+            /* BASIC STYLES */
+            :root {
+              --yellow: #fffbbc;
+              --lightbox: #242424;
+            }
+      
+            .notification {
+              position: fixed;
+              left: 0;
+              right: 0;
+              bottom: 0;
+              padding: 5px 15px;
+              margin: 0;
+              text-align: center;
+              z-index: 1;
+              background: var(--yellow);
+            }
+      
+            @media (max-width: 700px) {
+              .notification {
+                display: none;
+              }
+            }
+
+      
+            /* IMAGE GRID STYLES */
+            .image-grid figure {
+              margin-bottom: 0;
+            }
+      
+            .image-grid img {
+              box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.15);
+              transition: box-shadow 0.2s;
+            }
+      
+            .image-grid a:hover img {
+              box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.35);
+            }
+      
+            /* LIGHTBOX STYLES */
+            .lightbox-modal .modal-content {
+              background: var(--lightbox);
+            }
+      
+            .lightbox-modal .btn-close {
+              position: absolute;
+              top: 20px;
+              right: 18px;
+              font-size: 1.2rem;
+              z-index: 10;
+            }
+      
+            .lightbox-modal .modal-body {
+              display: flex;
+              align-items: center;
+              padding: 0;
+              text-align: center;
+            }
+      
+            .lightbox-modal img {
+              width: auto;
+              max-height: 100vh;
+              max-width: 100%;
+            }
+      
+            .lightbox-modal .carousel-caption {
+              left: 0;
+              right: 0;
+              bottom: 0;
+              background: rgba(36, 36, 36, 0.75);
+            }
+      
+            .lightbox-modal .carousel-control-prev,
+            .lightbox-modal .carousel-control-next {
+              top: 50%;
+              bottom: auto;
+              transform: translateY(-50%);
+              width: auto;
+            }
+      
+            .lightbox-modal .carousel-control-prev {
+              left: 40px;
+            }
+      
+            .lightbox-modal .carousel-control-next {
+              right: 40px;
+            }
+
+            .menu-list{
+                text-align: center;
+            }
+          </style>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5TWJCSYJ5H"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-5TWJCSYJ5H');
+</script>
+
+
+  </head>
+
+  <body>
+
+    <div id="home"></div>
+    <!-- Navbar -->
+    <nav
+      class="navbar navbar-expand-md navbar-custom fixed-top"
+      aria-label="Main NavBar"
+    >
+      <div class="container-fluid">
+        <a
+          class="navbar-brand fw-bold d-none d-md-block d-lg-block d-xl-block"
+          href="#"
+          >Royale Fusion Flare Restaurant UK</a
+        >
+        <button
+          class="navbar-toggler fancy-toggler ms-auto"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarMain"
+          aria-controls="navbarMain"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+          id="navbar-toggler"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarMain">
+          <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+            <li class="nav-item me-lg-4">
+              <a class="nav-link fw-bolder" href="./index.html#home">
+                <span
+                  data-bs-toggle="collapse"
+                  data-bs-target=".navbar-collapse.show"
+                >
+                  HOME
+                </span>
+              </a>
+            </li>
+            <li class="nav-item me-lg-4">
+              <a class="nav-link fw-bolder" href="./index.html#about">
+                <span
+                  data-bs-toggle="collapse"
+                  data-bs-target=".navbar-collapse.show"
+                  >ABOUT</span
+                >
+              </a>
+            </li>
+            <li class="nav-item me-lg-4">
+              <a class="nav-link fw-bolder" href="./menu.html">
+                <span
+                  data-bs-toggle="collapse"
+                  data-bs-target=".navbar-collapse.show"
+                  >MENU</span
+                >
+              </a>
+            </li>
+            <li class="nav-item me-lg-4">
+              <a class="nav-link fw-bolder" href="./gallery.html">
+                <span
+                  data-bs-toggle="collapse"
+                  data-bs-target=".navbar-collapse.show"
+                  >GALLERY</span
+                >
+              </a>
+            </li>
+
+            <li class="nav-item me-lg-4">
+              <a class="nav-link fw-bolder" href="./index.html#contact">
+                <span
+                  data-bs-toggle="collapse"
+                  data-bs-target=".navbar-collapse.show"
+                >
+                  CONTACT</span
+                >
+              </a>
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <br />
+    <br />
+    <br />
+
+    <h1 class="text-center mb-4">Menu</h1>
+   
+
+    <!-- Dyanmic-->
+    <section id="content-container" class="bg-family py-5 ">
+          <!-- This will be populated with links -->
+    </section>
+
+    
+
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <p>
+          &copy; 2024 <a href="https://royalefusionflare.co.uk/">Royal Fusion Flare UK </a> All
+          Rights Reserved.
+        </p>
+      </div>
+    </footer>
+
+    <script>
+      var rowCount = 0;
+      var htmlContent = "";
+      var categoryName = "";
+      var SubCategoryName = "";
+      var rowContent = "";
+
+      for(let i=0; i<config.content.length; i++) {
+        //console.log(i);
+        var content = config.content[i];
+          //console.log(content.Category +" " +content.SubCategory+" " +content.DishName +" " +content.DishDescrip  +" " +content.DishCost);
+          
+          if(i == 0){
+            categoryName = content.Category;
+            SubCategoryName = content.SubCategory;
+            htmlContent += getCategorySubCategory(categoryName, SubCategoryName);
+          }
+
+          if(SubCategoryName != content.SubCategory){
+            categoryName = content.Category;
+            SubCategoryName = content.SubCategory;
+            htmlContent += getCategorySubCategory(categoryName, SubCategoryName);
+          }
+
+          if(rowCount == 0){
+            rowContent = columnTemplate(content.DishName, content.DishDescrip, content.DishCost);
+            rowCount++;
+          }else if(rowCount == 1){
+            rowContent += columnTemplate(content.DishName, content.DishDescrip, content.DishCost);
+            htmlContent += rowTemplate(rowContent);
+            rowCount = 0;
+          }
+
+        if(i == config.content.length - 1){
+          console.log("Last Item");
+
+          var content_container = document.getElementById("content-container");
+          content_container.innerHTML += sectionContent(htmlContent);
+        }
+
+      }
+
+      function sectionContent(htmlContent){
+
+        var template = `
+           <div class="container">  <!--Div container Start --> 
+
+            <div class="divider"></div>
+            <!--Div Divider Start End --> 
+            ${htmlContent}
+          </div> <!--Div container End --> 
+        `;
+
+        return template;
+
+      }
+
+      function getCategorySubCategory(Category, SubCategory ){
+        var template = `
+        <div class="row  text-center ">
+         <!--Div row text-center Start --> 
+          <div class="col-md-12">
+            <!--Div col-md-12 Start --> 
+
+            <h1 class="display-4" style="letter-spacing: 20px; ">${Category}</h1>
+            <h3 style="letter-spacing: 15px; ">${SubCategory}</h3>
+
+          </div>
+          <!--Div col-md-12 End --> 
+        </div>
+        <!--Div row text-center End --> 
+        <div class="divider"></div>
+        <!--Div Divider Start End --> 
+        <div class="mt-5"></div>
+        <!--Div mt-5 Start End --> 
+      `;
+      return template
+
+      }
+
+      function rowTemplate (rowContents){
+        var template = `
+        <div class="row mb-3">
+          <!--Div row mb-3 Start --> 
+          ${rowContents}
+        </div>
+        <!--Div row mb-3 End --> 
+        `;
+        return template;
+      }
+
+      function columnTemplate(itemname, itemdesc, itemprice) {
+        var template = `
+        <div class="col-md-6">
+            <div class="row menu-list">
+                <div class="col-lg-6 col-md-12">
+                    <img class="img-responsive" src="https://b.zmtcdn.com/data/pictures/chains/3/18989823/c85e28c34f1fc350bcc343ef60302648.jpg?impolicy=newcropandfit&cropw=640&croph=640&cropoffsetx=0&cropoffsety=0&cropgravity=NorthWest&fitw=200&fith=200&fittype=ignore">
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <h4>${itemname} - ${itemprice}</h4>
+                    <p style="color:black !important; font-style: italic;">${itemdesc}</p>
+                </div>
+            </div>
+        </div>
+    `;
+        return template;
+      
+      }
+
+     
+    </script>
+
+  </body>
+</html>
