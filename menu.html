@@ -284,6 +284,22 @@
 
     <h1 class="text-center mb-4">Menu</h1>
    
+    <div style="align-items: center; text-align: center">
+      <button class="btn btn-dark filter-button" data-filter="all">All</button>
+      <button class="btn btn-dark filter-button" data-filter="Starters">
+        Starters
+      </button>
+      <button class="btn btn-dark filter-button" data-filter="MainCourse">
+        Main Course
+      </button>
+      <button class="btn btn-dark filter-button" data-filter="Sides">
+        Sides
+      </button>
+      <button class="btn btn-dark filter-button" data-filter="Drinks">
+        Drinks
+      </button>
+    </div>
+    <br />
 
     <!-- Dyanmic-->
     <section id="content-container" class="bg-family py-5 ">
@@ -324,15 +340,18 @@
           if(SubCategoryName != content.SubCategory){
             categoryName = content.Category;
             SubCategoryName = content.SubCategory;
-            htmlContent += getCategorySubCategory(categoryName, SubCategoryName, false);
+            htmlContent += getCategorySubCategory(categoryName, SubCategoryName, true);
           }
+          var columnFlag = true;
+          if(content.DishName==""){columnFlag=false;}
 
           if(rowCount == 0){
-            rowContent = columnTemplate(content.DishName, content.DishDescrip, content.DishCost);
+          
+            rowContent = columnTemplate(content.DishName, content.DishDescrip, content.DishCost, content.URL, columnFlag);
             rowCount++;
           }else if(rowCount == 1){
-            rowContent += columnTemplate(content.DishName, content.DishDescrip, content.DishCost);
-            htmlContent += rowTemplate(rowContent);
+            rowContent += columnTemplate(content.DishName, content.DishDescrip, content.DishCost, content.URL, columnFlag);
+            htmlContent += rowTemplate(rowContent, content.Category);
             rowCount = 0;
           }
 
@@ -362,9 +381,9 @@
 
       function getCategorySubCategory(Category, SubCategory, flag){
         var template = `
-        <div class="row  text-center ">
+        <div class="row  text-center filter ${Category}">
          <!--Div row text-center Start --> 
-          <div class="col-md-12">
+          <div class="col-md-12 filter ${Category}">
             <!--Div col-md-12 Start --> 
             ${flag ? '<h1 class="display-4" style="letter-spacing: 20px; ">' +Category+ '</h1>' : ''}
             
@@ -383,9 +402,9 @@
 
       }
 
-      function rowTemplate (rowContents){
+      function rowTemplate (rowContents, Category){
         var template = `
-        <div class="row mb-3">
+        <div class="row mb-3 filter ${Category}">
           <!--Div row mb-3 Start --> 
           ${rowContents}
         </div>
@@ -394,15 +413,15 @@
         return template;
       }
 
-      function columnTemplate(itemname, itemdesc, itemprice) {
+      function columnTemplate(itemname, itemdesc, itemprice, url, flag) {
         var template = `
         <div class="col-md-6">
             <div class="row menu-list">
                 <div class="col-lg-6 col-md-12">
-                    <img class="img-responsive" src="https://b.zmtcdn.com/data/pictures/chains/3/18989823/c85e28c34f1fc350bcc343ef60302648.jpg?impolicy=newcropandfit&cropw=640&croph=640&cropoffsetx=0&cropoffsety=0&cropgravity=NorthWest&fitw=200&fith=200&fittype=ignore">
+                    <img class="img-responsive" src="${url}">
                 </div>
                 <div class="col-lg-6 col-md-12">
-                    <h4>${itemname} - ${itemprice}</h4>
+                    <h4>${itemname}  ${flag ? '-' : '' } ${itemprice}</h4>
                     <p style="color:black !important; font-style: italic;">${itemdesc}</p>
                 </div>
             </div>
@@ -412,6 +431,23 @@
       
       }
 
+
+      $(document).ready(function () {
+        $(".filter-button").click(function () {
+          var value = $(this).attr("data-filter");
+
+          if (value == "all") {
+            $(".filter").show("1000");
+          } else {
+            $(".filter")
+              .not("." + value)
+              .hide("3000");
+            $(".filter")
+              .filter("." + value)
+              .show("3000");
+          }
+        });
+      });
      
     </script>
 
