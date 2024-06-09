@@ -318,13 +318,13 @@
           if(i == 0){
             categoryName = content.Category;
             SubCategoryName = content.SubCategory;
-            htmlContent += getCategorySubCategory(categoryName, SubCategoryName);
+            htmlContent += getCategorySubCategory(categoryName, SubCategoryName, true);
           }
 
           if(SubCategoryName != content.SubCategory){
             categoryName = content.Category;
             SubCategoryName = content.SubCategory;
-            htmlContent += getCategorySubCategory(categoryName, SubCategoryName);
+            htmlContent += getCategorySubCategory(categoryName, SubCategoryName, false);
           }
 
           if(rowCount == 0){
@@ -360,14 +360,14 @@
 
       }
 
-      function getCategorySubCategory(Category, SubCategory ){
+      function getCategorySubCategory(Category, SubCategory, flag){
         var template = `
         <div class="row  text-center ">
          <!--Div row text-center Start --> 
           <div class="col-md-12">
             <!--Div col-md-12 Start --> 
-
-            <h1 class="display-4" style="letter-spacing: 20px; ">${Category}</h1>
+            ${flag ? '<h1 class="display-4" style="letter-spacing: 20px; ">' +Category+ '</h1>' : ''}
+            
             <h3 style="letter-spacing: 15px; ">${SubCategory}</h3>
 
           </div>
