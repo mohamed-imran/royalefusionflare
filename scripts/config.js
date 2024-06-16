@@ -85,7 +85,7 @@ let config = {"content": [
     "DishName": "Panner 65",
     "DishDescrip": "Panner 65",
     "DishCost": "£13",
-    "URL": "./images/menuimg/001_ChickenRoll.png"
+    "URL": "./images/menuimg/010_Panner65.png"
   },
   {
     "Category": "Starters",
@@ -93,7 +93,7 @@ let config = {"content": [
     "DishName": "Mashroom 65",
     "DishDescrip": "Mashroom 65",
     "DishCost": "£14",
-    "URL": "./images/menuimg/001_ChickenRoll.png"
+    "URL": "./images/menuimg/011_Mushroom65.png"
   },
   {
     "Category": "Starters",
@@ -101,7 +101,7 @@ let config = {"content": [
     "DishName": "Gobi 65",
     "DishDescrip": "Gobi 65",
     "DishCost": "£15",
-    "URL": "./images/menuimg/001_ChickenRoll.png"
+    "URL": "./images/menuimg/012_Gobi65.png"
   },
   {
     "Category": "Starters",
@@ -109,7 +109,7 @@ let config = {"content": [
     "DishName": "Gobi Manjurian",
     "DishDescrip": "Gobi Manjurian",
     "DishCost": "£10",
-    "URL": "./images/menuimg/001_ChickenRoll.png"
+    "URL": "./images/menuimg/013_Gobi Manjurian.png"
   },
   {
     "Category": "Starters",
@@ -117,7 +117,7 @@ let config = {"content": [
     "DishName": "Panner Butter Masala",
     "DishDescrip": "Panner Butter Masala",
     "DishCost": "£11",
-    "URL": "./images/menuimg/001_ChickenRoll.png"
+    "URL": "./images/menuimg/014_Paneer Butter Masala.png"
   },
   {
     "Category": "Starters",
@@ -125,7 +125,7 @@ let config = {"content": [
     "DishName": "Gobi Masala",
     "DishDescrip": "Gobi Masala",
     "DishCost": "£12",
-    "URL": "./images/menuimg/001_ChickenRoll.png"
+    "URL": "./images/menuimg/015_Gobi Masala.png"
   },
   {
     "Category": "Starters",
@@ -133,7 +133,7 @@ let config = {"content": [
     "DishName": "Mashroom Masala",
     "DishDescrip": "Mashroom Masala",
     "DishCost": "£13",
-    "URL": "./images/menuimg/001_ChickenRoll.png"
+    "URL": "./images/menuimg/016_Mushroom Masala.png"
   },
   {
     "Category": "Starters",
@@ -141,7 +141,7 @@ let config = {"content": [
     "DishName": "Fries",
     "DishDescrip": "Fries",
     "DishCost": "£14",
-    "URL": "./images/menuimg/001_ChickenRoll.png"
+    "URL": "./images/menuimg/017_Fries.png"
   },
   {
     "Category": "Starters",
@@ -149,7 +149,7 @@ let config = {"content": [
     "DishName": "Onion Bhaji",
     "DishDescrip": "Onion Bhaji",
     "DishCost": "£15",
-    "URL": "./images/menuimg/001_ChickenRoll.png"
+    "URL": "./images/menuimg/018_Onion Bhaji.png"
   },
   {
     "Category": "Starters",
@@ -157,7 +157,7 @@ let config = {"content": [
     "DishName": "Potato Bhaji",
     "DishDescrip": "Potato Bhaji",
     "DishCost": "£10",
-    "URL": "./images/menuimg/001_ChickenRoll.png"
+    "URL": "./images/menuimg/019_Potato Bhajji.png"
   },
   {
     "Category": "Starters",
