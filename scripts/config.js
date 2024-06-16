@@ -3,7 +3,7 @@ let config = {"content": [
     "Category": "Starters",
     "SubCategory": "Roll",
     "DishName": "Chicken Roll",
-    "DishDescrip": "Chicken Roll",
+    "DishDescrip": "<i class=\"bi bi-circle-fill\"  style=\"font-size: 14px; color: #a92319;\"></i> Chicken Roll",
     "DishCost": "£10",
     "URL": "./images/menuimg/001_ChickenRoll.png"
   },
@@ -11,7 +11,7 @@ let config = {"content": [
     "Category": "Starters",
     "SubCategory": "Roll",
     "DishName": "Egg Roll",
-    "DishDescrip": "Egg Roll",
+    "DishDescrip": "<i class=\"bi bi-circle-fill\"  style=\"font-size: 14px; color: #a92319;\"></i> Egg Roll",
     "DishCost": "£11",
     "URL": "./images/menuimg/002_EggRoll.png"
   },
@@ -19,7 +19,7 @@ let config = {"content": [
     "Category": "Starters",
     "SubCategory": "Roll",
     "DishName": "Veg Roll",
-    "DishDescrip": "Veg Roll",
+    "DishDescrip": "<i class=\"bi bi-circle-fill\"  style=\"font-size: 14px; color: #237f01;\"></i> Veg Roll",
     "DishCost": "£12",
     "URL": "./images/menuimg/003_VegRoll.png"
   },
@@ -213,7 +213,7 @@ let config = {"content": [
     "DishName": "Korean Fried Chicken",
     "DishDescrip": "Korean Fried Chicken",
     "DishCost": "£11",
-    "URL": "./images/menuimg/001_ChickenRoll.png"
+    "URL": "./images/menuimg/026_Korean Fried Chicken.png"
   },
   {
     "Category": "Starters",
@@ -221,7 +221,7 @@ let config = {"content": [
     "DishName": "Fish Finger",
     "DishDescrip": "Fish Finger",
     "DishCost": "£12",
-    "URL": "./images/menuimg/001_ChickenRoll.png"
+    "URL": "./images/menuimg/027_Fish Finger.png"
   },
   {
     "Category": "Starters",
@@ -229,7 +229,7 @@ let config = {"content": [
     "DishName": "Prawn 65",
     "DishDescrip": "Prawn 65",
     "DishCost": "£13",
-    "URL": "./images/menuimg/001_ChickenRoll.png"
+    "URL": "./images/menuimg/028_Prawn 65.png"
   },
   {
     "Category": "Starters",
@@ -237,7 +237,7 @@ let config = {"content": [
     "DishName": "Mutton Chukka",
     "DishDescrip": "Mutton Chukka",
     "DishCost": "£14",
-    "URL": "./images/menuimg/001_ChickenRoll.png"
+    "URL": "./images/menuimg/029_Mutton Chukka.png"
   },
   {
     "Category": "Starters",
@@ -245,7 +245,7 @@ let config = {"content": [
     "DishName": "Chicken Nuggets",
     "DishDescrip": "Chicken Nuggets",
     "DishCost": "£15",
-    "URL": "./images/menuimg/001_ChickenRoll.png"
+    "URL": "./images/menuimg/030_Chicken Nuggets.png"
   },
   {
     "Category": "Starters",
@@ -253,7 +253,7 @@ let config = {"content": [
     "DishName": "Sweet Chilli Chicken",
     "DishDescrip": "Sweet Chilli Chicken",
     "DishCost": "£10",
-    "URL": "./images/menuimg/001_ChickenRoll.png"
+    "URL": "./images/menuimg/031_Sweet Chilli Chicken.png"
   },
   {
     "Category": "Starters",
@@ -261,7 +261,7 @@ let config = {"content": [
     "DishName": "Neththali",
     "DishDescrip": "Neththali",
     "DishCost": "£11",
-    "URL": "./images/menuimg/001_ChickenRoll.png"
+    "URL": "./images/menuimg/032_Netholi Meen.png"
   },
   {
     "Category": "Starters",
@@ -269,7 +269,7 @@ let config = {"content": [
     "DishName": "King Fish",
     "DishDescrip": "King Fish",
     "DishCost": "£12",
-    "URL": "./images/menuimg/001_ChickenRoll.png"
+    "URL": "./images/menuimg/033_King Fish Fry.png"
   },
   {
     "Category": "MainCourse",
