@@ -165,7 +165,7 @@ let config = {"content": [
     "DishName": "Grill Chicken Half",
     "DishDescrip": "Grill Chicken Half",
     "DishCost": "£11",
-    "URL": "./images/menuimg/001_ChickenRoll.png"
+    "URL": "./images/menuimg/020_Grill Chicken Half.png"
   },
   {
     "Category": "Starters",
@@ -173,7 +173,7 @@ let config = {"content": [
     "DishName": "BBQ Half",
     "DishDescrip": "BBQ Half",
     "DishCost": "£12",
-    "URL": "./images/menuimg/001_ChickenRoll.png"
+    "URL": "./images/menuimg/021_BBQ Half.png"
   },
   {
     "Category": "Starters",
@@ -181,7 +181,7 @@ let config = {"content": [
     "DishName": "Tandoori Half / Quarter",
     "DishDescrip": "Tandoori Half / Quarter",
     "DishCost": "£13",
-    "URL": "./images/menuimg/001_ChickenRoll.png"
+    "URL": "./images/menuimg/022_Tandoori Half.png"
   },
   {
     "Category": "Starters",
@@ -189,7 +189,7 @@ let config = {"content": [
     "DishName": "Chicken 65 Boneless",
     "DishDescrip": "Chicken 65 Boneless",
     "DishCost": "£14",
-    "URL": "./images/menuimg/001_ChickenRoll.png"
+    "URL": "./images/menuimg/023_Chicken 65 Boneless.png"
   },
   {
     "Category": "Starters",
@@ -197,7 +197,7 @@ let config = {"content": [
     "DishName": "Chicken Lollypop / Saucy",
     "DishDescrip": "Chicken Lollypop / Saucy",
     "DishCost": "£15",
-    "URL": "./images/menuimg/001_ChickenRoll.png"
+    "URL": "./images/menuimg/024_Chicken Lollypop.png"
   },
   {
     "Category": "Starters",
