@@ -205,7 +205,7 @@ let config = {"content": [
     "DishName": "Dragan Chicken",
     "DishDescrip": "Dragan Chicken",
     "DishCost": "£10",
-    "URL": "./images/menuimg/001_ChickenRoll.png"
+    "URL": "./images/menuimg/025_Dragon Chicken.png"
   },
   {
     "Category": "Starters",
