@@ -159,7 +159,7 @@ function rowTemplate(rowContents, Category) {
 
 function columnTemplate(itemname, itemdesc, itemprice, url, flag) {
   var template = `
-    <div class="col-md-6">
+    <div class="col-md-6 menu-row">
         <div class="row menu-list">
             <div class="col-lg-6 col-md-12">
                 <img class="img-responsive" src="${url}">
