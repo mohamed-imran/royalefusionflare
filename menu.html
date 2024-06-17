@@ -2,17 +2,16 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+    />
     <meta content="Royale Fusion Flare" name="keywords" />
     <meta content="Royale Fusion Flare" name="description" />
     <meta name="author" content="Royale Fusion Flare" />
 
     <!-- Favicon -->
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="./images/favicon.png"
-    />
+    <link rel="apple-touch-icon" sizes="180x180" href="./images/favicon.png" />
     <link
       rel="icon"
       type="image/png"
@@ -44,11 +43,8 @@
     <link rel="stylesheet" href="./css/button3d.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet"
-    />
-    <script src="https://kit.fontawesome.com/9d4a168b89.js" crossorigin="anonymous"></script>
+    <link href="./css/googlefont.css" rel="stylesheet" />
+    <script src="./scripts/9d4a168b89.js" crossorigin="anonymous"></script>
 
     <!-- Scripts -->
     <script
@@ -62,144 +58,143 @@
       crossorigin="anonymous"
     ></script>
 
-        <!-- Typed.js -->
-        <script src="./scripts/typed/typed.min.js"></script>
+    <!-- Typed.js -->
+    <script src="./scripts/typed/typed.min.js"></script>
 
-            <!-- Typed.js -->
-            <script src="./scripts/config.js"></script>
+    <!-- Typed.js -->
+    <script src="./scripts/config.js"></script>
 
-        <style>
-            .card {
-              backdrop-filter: blur(8px) saturate(126%);
-              -webkit-backdrop-filter: blur(8px) saturate(126%);
-              background-color: rgba(24, 24, 24, 0.75);
-              border-radius: 10px;
-              border: 1px solid rgba(17, 17, 17, 0.18);
-              font: 20px / 25px "Barlow", cursive;
-              width: 100px;
-              height: 40px;
-              text-align: center;
-              align-items: center;
-              justify-content: center;
-              color: black;
-              margin-right: 30px;
-              margin-top: 10px;
-            }
-      
-            .carousel-caption {
-              font: 20px / 28px "Barlow", cursive;
-            }
-      
-            /* BASIC STYLES */
-            :root {
-              --yellow: #fffbbc;
-              --lightbox: #242424;
-            }
-      
-            .notification {
-              position: fixed;
-              left: 0;
-              right: 0;
-              bottom: 0;
-              padding: 5px 15px;
-              margin: 0;
-              text-align: center;
-              z-index: 1;
-              background: var(--yellow);
-            }
-      
-            @media (max-width: 700px) {
-              .notification {
-                display: none;
-              }
-            }
+    <style>
+      .card {
+        backdrop-filter: blur(8px) saturate(126%);
+        -webkit-backdrop-filter: blur(8px) saturate(126%);
+        background-color: rgba(24, 24, 24, 0.75);
+        border-radius: 10px;
+        border: 1px solid rgba(17, 17, 17, 0.18);
+        font: 20px / 25px "Barlow", cursive;
+        width: 100px;
+        height: 40px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        color: black;
+        margin-right: 30px;
+        margin-top: 10px;
+      }
 
-      
-            /* IMAGE GRID STYLES */
-            .image-grid figure {
-              margin-bottom: 0;
-            }
-      
-            .image-grid img {
-              box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.15);
-              transition: box-shadow 0.2s;
-            }
-      
-            .image-grid a:hover img {
-              box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.35);
-            }
-      
-            /* LIGHTBOX STYLES */
-            .lightbox-modal .modal-content {
-              background: var(--lightbox);
-            }
-      
-            .lightbox-modal .btn-close {
-              position: absolute;
-              top: 20px;
-              right: 18px;
-              font-size: 1.2rem;
-              z-index: 10;
-            }
-      
-            .lightbox-modal .modal-body {
-              display: flex;
-              align-items: center;
-              padding: 0;
-              text-align: center;
-            }
-      
-            .lightbox-modal img {
-              width: auto;
-              max-height: 100vh;
-              max-width: 100%;
-            }
-      
-            .lightbox-modal .carousel-caption {
-              left: 0;
-              right: 0;
-              bottom: 0;
-              background: rgba(36, 36, 36, 0.75);
-            }
-      
-            .lightbox-modal .carousel-control-prev,
-            .lightbox-modal .carousel-control-next {
-              top: 50%;
-              bottom: auto;
-              transform: translateY(-50%);
-              width: auto;
-            }
-      
-            .lightbox-modal .carousel-control-prev {
-              left: 40px;
-            }
-      
-            .lightbox-modal .carousel-control-next {
-              right: 40px;
-            }
+      .carousel-caption {
+        font: 20px / 28px "Barlow", cursive;
+      }
 
-            .menu-list{
-                text-align: center;
-            }
+      /* BASIC STYLES */
+      :root {
+        --yellow: #fffbbc;
+        --lightbox: #242424;
+      }
 
+      .notification {
+        position: fixed;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        padding: 5px 15px;
+        margin: 0;
+        text-align: center;
+        z-index: 1;
+        background: var(--yellow);
+      }
 
-          </style>
+      @media (max-width: 700px) {
+        .notification {
+          display: none;
+        }
+      }
 
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-5TWJCSYJ5H"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+      /* IMAGE GRID STYLES */
+      .image-grid figure {
+        margin-bottom: 0;
+      }
 
-  gtag('config', 'G-5TWJCSYJ5H');
-</script>
+      .image-grid img {
+        box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.15);
+        transition: box-shadow 0.2s;
+      }
 
+      .image-grid a:hover img {
+        box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.35);
+      }
 
+      /* LIGHTBOX STYLES */
+      .lightbox-modal .modal-content {
+        background: var(--lightbox);
+      }
+
+      .lightbox-modal .btn-close {
+        position: absolute;
+        top: 20px;
+        right: 18px;
+        font-size: 1.2rem;
+        z-index: 10;
+      }
+
+      .lightbox-modal .modal-body {
+        display: flex;
+        align-items: center;
+        padding: 0;
+        text-align: center;
+      }
+
+      .lightbox-modal img {
+        width: auto;
+        max-height: 100vh;
+        max-width: 100%;
+      }
+
+      .lightbox-modal .carousel-caption {
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(36, 36, 36, 0.75);
+      }
+
+      .lightbox-modal .carousel-control-prev,
+      .lightbox-modal .carousel-control-next {
+        top: 50%;
+        bottom: auto;
+        transform: translateY(-50%);
+        width: auto;
+      }
+
+      .lightbox-modal .carousel-control-prev {
+        left: 40px;
+      }
+
+      .lightbox-modal .carousel-control-next {
+        right: 40px;
+      }
+
+      .menu-list {
+        text-align: center;
+      }
+    </style>
+
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-5TWJCSYJ5H"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-5TWJCSYJ5H");
+    </script>
   </head>
 
   <body>
-
     <div id="home"></div>
     <!-- Navbar -->
     <nav
@@ -275,7 +270,6 @@
                 >
               </a>
             </li>
-            
           </ul>
         </div>
       </div>
@@ -287,13 +281,14 @@
 
     <h1 class="text-center mb-4">Menu</h1>
     <div class="text-center mb-4">
-    
-    <i class="bi bi-circle-fill"  style="font-size: 14px; color: #237f01;"></i> Veg |
-    <i class="bi bi-circle-fill"  style="font-size: 14px; color: #a92319;"></i> Non-Veg | 
-    <i class='fas fa-pepper-hot' style='font-size:14px;color:red'></i> Spicy
-
+      <i class="bi bi-circle-fill" style="font-size: 14px; color: #237f01"></i>
+      Veg |
+      <i class="bi bi-circle-fill" style="font-size: 14px; color: #a92319"></i>
+      Non-Veg |
+      <i class="fas fa-pepper-hot" style="font-size: 14px; color: red"></i>
+      Spicy
     </div>
-   
+
     <div style="align-items: center; text-align: center">
       <button class="btn btn-dark filter-button" data-filter="all">All</button>
       <button class="btn btn-dark filter-button" data-filter="Starters">
@@ -312,163 +307,22 @@
     <br />
 
     <!-- Dyanmic-->
-    <section id="content-container" class="bg-family py-5 ">
-          <!-- This will be populated with links -->
+    <section id="content-container" class="bg-family py-5">
+      <!-- This will be populated with links -->
     </section>
-
-    
-
 
     <!-- Footer -->
     <footer class="footer">
       <div class="container">
         <p>
-          &copy; 2024 <a href="https://royalefusionflare.co.uk/">Royal Fusion Flare UK </a> All
-          Rights Reserved.
+          &copy; 2024
+          <a href="https://royalefusionflare.co.uk/">Royal Fusion Flare UK </a>
+          All Rights Reserved.
         </p>
       </div>
     </footer>
 
     <script>
-      let rowCount = 0;
-      var htmlContent = "";
-      let categoryName = "";
-      let prevCategoryName = "";
-      let SubCategoryName = "";
-      let prevSubCategoryName = "";
-      let rowContent = "";
-
-      for(let i=0; i<config.content.length; i++) {
-        //console.log(i);
-        var content = config.content[i];
-          //console.log("i: " + i + " " +content.Category +" " +content.SubCategory+" " +content.DishName +" " +content.DishDescrip  +" " +content.DishCost);
-          //console.log("i: " + i + " " +content.Category +" " +content.SubCategory+" i === 0 " + (i === 0 ) 
-          //+ " categoryName: " + categoryName 
-          //+ " content.Category: " + content.Category 
-          //+ " SubCategoryName: " + SubCategoryName 
-          //+ " content.SubCategory: " + content.SubCategory 
-          //+ " prevCategoryName: " + prevCategoryName 
-          //+ " prevSubCategoryName: " + prevSubCategoryName
-          //+" (prevCategoryName === content.categoryName && prevSubCategoryName===content.SubCategory) " 
-          //+ (prevCategoryName === content.categoryName && prevSubCategoryName===content.SubCategory)  
-          //+" (prevCategoryName === content.categoryName) " +(prevCategoryName === content.categoryName));
-          
-          if(i === 0 ){
-            categoryName = content.Category;
-            SubCategoryName = content.SubCategory;
-            htmlContent += getCategorySubCategory(categoryName, SubCategoryName, true, true);
-          }else {
-            if(prevCategoryName === content.Category && prevSubCategoryName === content.SubCategory){
-              categoryName = content.Category;
-              SubCategoryName = content.SubCategory;
-              htmlContent += getCategorySubCategory(categoryName, SubCategoryName, false, false);
-            }else if(prevCategoryName === content.Category){
-              categoryName = content.Category;
-              SubCategoryName = content.SubCategory;
-              htmlContent += getCategorySubCategory(categoryName, SubCategoryName, false, true);
-            }
-            else{
-              categoryName = content.Category;
-              SubCategoryName = content.SubCategory;
-              htmlContent += getCategorySubCategory(categoryName, SubCategoryName, true, true);
-            }
-
-          }
-          prevCategoryName = content.Category;
-          prevSubCategoryName = content.SubCategory;
-         
-
-          var columnFlag = true;
-          if(content.DishName==""){columnFlag=false;}
-
-          if(rowCount == 0){
-          
-            rowContent = columnTemplate(content.DishName, content.DishDescrip, content.DishCost, content.URL, columnFlag);
-            rowCount++;
-          }else if(rowCount == 1){
-            rowContent += columnTemplate(content.DishName, content.DishDescrip, content.DishCost, content.URL, columnFlag);
-            htmlContent += rowTemplate(rowContent, content.Category);
-            rowCount = 0;
-          }
-
-        if(i == config.content.length - 1){
-          console.log("Last Item");
-
-          var content_container = document.getElementById("content-container");
-          content_container.innerHTML += sectionContent(htmlContent);
-        }
-
-      }
-
-      function sectionContent(htmlContent){
-
-        var template = `
-           <div class="container">  <!--Div container Start --> 
-
-            <div class="divider"></div>
-            <!--Div Divider Start End --> 
-            ${htmlContent}
-          </div> <!--Div container End --> 
-        `;
-
-        return template;
-
-      }
-
-      function getCategorySubCategory(Category, SubCategory, flag, subflag){
-        var template = `
-        <div class="row  text-center filter ${Category}">
-         <!--Div row text-center Start --> 
-          <div class="col-md-12 filter ${Category}">
-            <!--Div col-md-12 Start --> 
-            ${flag ? '<h1 class="display-4" style="letter-spacing: 20px; ">' +Category+ '</h1>' : ''}
-            
-            ${subflag ? '<h3 style="letter-spacing: 15px; ">' +SubCategory+ '</h3>' : ''}
-
-
-          </div>
-          <!--Div col-md-12 End --> 
-        </div>
-        <!--Div row text-center End --> 
-        <div class="divider"></div>
-        <!--Div Divider Start End --> 
-        <div class="mt-5"></div>
-        <!--Div mt-5 Start End --> 
-      `;
-      return template
-
-      }
-
-      function rowTemplate (rowContents, Category){
-        var template = `
-        <div class="row mb-3 filter ${Category}">
-          <!--Div row mb-3 Start --> 
-          ${rowContents}
-        </div>
-        <!--Div row mb-3 End --> 
-        `;
-        return template;
-      }
-
-      function columnTemplate(itemname, itemdesc, itemprice, url, flag) {
-        var template = `
-        <div class="col-md-6">
-            <div class="row menu-list">
-                <div class="col-lg-6 col-md-12">
-                    <img class="img-responsive" src="${url}">
-                </div>
-                <div class="col-lg-6 col-md-12">
-                    <h4>${itemname}  ${flag ? '-' : '' } ${itemprice}</h4>
-                    <p style="color:black !important; font-style: italic;">${itemdesc}</p>
-                </div>
-            </div>
-        </div>
-    `;
-        return template;
-      
-      }
-
-
       $(document).ready(function () {
         $(".filter-button").click(function () {
           var value = $(this).attr("data-filter");
@@ -485,8 +339,8 @@
           }
         });
       });
-     
     </script>
-
+    <!-- functions.js -->
+    <script src="./scripts/functions.js"></script>
   </body>
 </html>
