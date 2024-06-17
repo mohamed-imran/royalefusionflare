@@ -1487,7 +1487,7 @@ let config = {
       DishDescrip: "Raita",
       DishCost: "£10",
       URL: "./images/menuimg/001_ChickenRoll.png",
-      isVeg: false,
+      isVeg: true,
       spicelevel: 0,
     },
     {
@@ -1497,7 +1497,7 @@ let config = {
       DishDescrip: "Kathika Katta/Thoku",
       DishCost: "£11",
       URL: "./images/menuimg/001_ChickenRoll.png",
-      isVeg: false,
+      isVeg: true,
       spicelevel: 0,
     },
     {
@@ -1507,7 +1507,7 @@ let config = {
       DishDescrip: "Plain Naan",
       DishCost: "£12",
       URL: "./images/menuimg/001_ChickenRoll.png",
-      isVeg: false,
+      isVeg: true,
       spicelevel: 0,
     },
     {
@@ -1517,7 +1517,7 @@ let config = {
       DishDescrip: "Garlic Naan",
       DishCost: "£13",
       URL: "./images/menuimg/001_ChickenRoll.png",
-      isVeg: false,
+      isVeg: true,
       spicelevel: 0,
     },
     {
@@ -1527,7 +1527,7 @@ let config = {
       DishDescrip: "Plain Tea (Black Tea)",
       DishCost: "£14",
       URL: "./images/menuimg/001_ChickenRoll.png",
-      isVeg: false,
+      isVeg: true,
       spicelevel: 0,
     },
     {
@@ -1537,7 +1537,7 @@ let config = {
       DishDescrip: "Tea with Milk (English)",
       DishCost: "£15",
       URL: "./images/menuimg/001_ChickenRoll.png",
-      isVeg: false,
+      isVeg: true,
       spicelevel: 0,
     },
     {
@@ -1547,7 +1547,7 @@ let config = {
       DishDescrip: "Masala Tea (Indian)",
       DishCost: "£13",
       URL: "./images/menuimg/001_ChickenRoll.png",
-      isVeg: false,
+      isVeg: true,
       spicelevel: 0,
     },
     {
@@ -1557,7 +1557,7 @@ let config = {
       DishDescrip: "Coffee",
       DishCost: "£14",
       URL: "./images/menuimg/001_ChickenRoll.png",
-      isVeg: false,
+      isVeg: true,
       spicelevel: 0,
     },
     {
@@ -1567,7 +1567,7 @@ let config = {
       DishDescrip: "Coke",
       DishCost: "£15",
       URL: "./images/menuimg/001_ChickenRoll.png",
-      isVeg: false,
+      isVeg: true,
       spicelevel: 0,
     },
     {
@@ -1577,7 +1577,7 @@ let config = {
       DishDescrip: "Pepsi",
       DishCost: "£10",
       URL: "./images/menuimg/001_ChickenRoll.png",
-      isVeg: false,
+      isVeg: true,
       spicelevel: 0,
     },
     {
@@ -1587,7 +1587,7 @@ let config = {
       DishDescrip: "Fanta",
       DishCost: "£11",
       URL: "./images/menuimg/001_ChickenRoll.png",
-      isVeg: false,
+      isVeg: true,
       spicelevel: 0,
     },
     {
@@ -1597,7 +1597,7 @@ let config = {
       DishDescrip: "7up",
       DishCost: "£12",
       URL: "./images/menuimg/001_ChickenRoll.png",
-      isVeg: false,
+      isVeg: true,
       spicelevel: 0,
     },
     {
@@ -1607,7 +1607,7 @@ let config = {
       DishDescrip: "Diet Coke",
       DishCost: "£13",
       URL: "./images/menuimg/001_ChickenRoll.png",
-      isVeg: false,
+      isVeg: true,
       spicelevel: 0,
     },
     {
@@ -1617,7 +1617,7 @@ let config = {
       DishDescrip: "Diet Pepsi",
       DishCost: "£14",
       URL: "./images/menuimg/001_ChickenRoll.png",
-      isVeg: false,
+      isVeg: true,
       spicelevel: 0,
     },
   ],
