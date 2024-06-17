@@ -77,7 +77,9 @@ for (let i = 0; i < config.content.length; i++) {
       content.DishDescrip,
       content.DishCost,
       content.URL,
-      columnFlag
+      columnFlag,
+      content.isVeg,
+      content.spicelevel
     );
     rowCount++;
   } else if (rowCount == 1) {
@@ -86,7 +88,9 @@ for (let i = 0; i < config.content.length; i++) {
       content.DishDescrip,
       content.DishCost,
       content.URL,
-      columnFlag
+      columnFlag,
+      content.isVeg,
+      content.spicelevel
     );
     htmlContent += rowTemplate(rowContent, content.Category);
     rowCount = 0;
@@ -157,7 +161,35 @@ function rowTemplate(rowContents, Category) {
   return template;
 }
 
-function columnTemplate(itemname, itemdesc, itemprice, url, flag) {
+function columnTemplate(itemname, itemdesc, itemprice, url, flag, isVeg, spicelevel) {
+
+  var vegNonVeg = "";
+  var spicyLevel = "";
+  //console.log("isVeg: " + isVeg + " flag: " + flag +"(flag & isVeg)" + (flag && isVeg));
+  if(flag && isVeg){
+    vegNonVeg = "<i class=\"bi bi-circle-fill\"  style=\"font-size: 14px; color: #237f01;\"></i> ";
+    //console.log(itemname + " " + itemprice + " " + itemdesc + " " + url + " " + flag + " " + isVeg );  
+
+  }else if(flag){
+    vegNonVeg = "<i class=\"bi bi-circle-fill\"  style=\"font-size: 14px; color: #a92319;\"></i> ";
+    //console.log(itemname + " " + itemprice + " " + itemdesc + " " + url + " " + flag + " " + isVeg );  
+
+  }
+
+  if(flag && spicelevel == 1){
+    spiceLevel = "  <i class=\"fas fa-pepper-hot\" style=\"font-size: 14px; color: red\"></i> ";
+  }else if(flag && spicelevel == 2){
+    spiceLevel = "  <i class=\"fas fa-pepper-hot\" style=\"font-size: 14px; color: red\"></i> ";
+    spiceLevel += "  <i class=\"fas fa-pepper-hot\" style=\"font-size: 14px; color: red\"></i> ";
+
+  }else if(flag && spicelevel == 3){
+    spiceLevel = "  <i class=\"fas fa-pepper-hot\" style=\"font-size: 14px; color: red\"></i> ";
+    spiceLevel += "  <i class=\"fas fa-pepper-hot\" style=\"font-size: 14px; color: red\"></i> ";
+    spiceLevel += "  <i class=\"fas fa-pepper-hot\" style=\"font-size: 14px; color: red\"></i> ";
+  }else{
+    spiceLevel = "";
+  }
+
   var template = `
     <div class="col-md-6 menu-row">
         <div class="row menu-list">
@@ -166,7 +198,11 @@ function columnTemplate(itemname, itemdesc, itemprice, url, flag) {
             </div>
             <div class="col-lg-6 col-md-12 menu-detail">
                 <h4>${itemname}  ${flag ? "-" : ""} ${itemprice}</h4>
-                <p style="color:black !important; font-style: italic;">${itemdesc}</p>
+
+                <p style="color:black !important; font-style: italic;">
+                ${vegNonVeg} &nbsp; ${spiceLevel} &nbsp;
+                ${itemdesc}
+                </p>
             </div>
         </div>
     </div>
