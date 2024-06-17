@@ -325,7 +325,7 @@ let config = {"content": [
     "DishName": "Panner Butter Masala",
     "DishDescrip": "Panner Butter Masala",
     "DishCost": "£13",
-    "URL": "./images/menuimg/001_ChickenRoll.png"
+    "URL": "./images/menuimg/040_Panner Butter Masala.png"
   },
   {
     "Category": "MainCourse",
@@ -333,7 +333,7 @@ let config = {"content": [
     "DishName": "Panner Manjurian",
     "DishDescrip": "Panner Manjurian",
     "DishCost": "£14",
-    "URL": "./images/menuimg/001_ChickenRoll.png"
+    "URL": "./images/menuimg/041_Paneer manchurian.png"
   },
   {
     "Category": "MainCourse",
@@ -341,7 +341,7 @@ let config = {"content": [
     "DishName": "Chilli Panner",
     "DishDescrip": "Chilli Panner",
     "DishCost": "£15",
-    "URL": "./images/menuimg/001_ChickenRoll.png"
+    "URL": "./images/menuimg/042_Chilli Panner.png"
   },
   {
     "Category": "MainCourse",
@@ -349,7 +349,7 @@ let config = {"content": [
     "DishName": "Mshroom Masala",
     "DishDescrip": "Mshroom Masala",
     "DishCost": "£10",
-    "URL": "./images/menuimg/001_ChickenRoll.png"
+    "URL": "./images/menuimg/043_Mushroom Masala.png"
   },
   {
     "Category": "MainCourse",
@@ -357,7 +357,7 @@ let config = {"content": [
     "DishName": "Chilli Mushroom",
     "DishDescrip": "Chilli Mushroom",
     "DishCost": "£11",
-    "URL": "./images/menuimg/001_ChickenRoll.png"
+    "URL": "./images/menuimg/044_Chilli Mushroom.png"
   },
   {
     "Category": "MainCourse",
@@ -365,7 +365,7 @@ let config = {"content": [
     "DishName": "Gobi Masala",
     "DishDescrip": "Gobi Masala",
     "DishCost": "£12",
-    "URL": "./images/menuimg/001_ChickenRoll.png"
+    "URL": "./images/menuimg/045_Gobi Masala.png"
   },
   {
     "Category": "MainCourse",
@@ -373,7 +373,7 @@ let config = {"content": [
     "DishName": "Chilli Gobi",
     "DishDescrip": "Chilli Gobi",
     "DishCost": "£13",
-    "URL": "./images/menuimg/001_ChickenRoll.png"
+    "URL": "./images/menuimg/046_Chilli Gobi.png"
   },
   {
     "Category": "MainCourse",
@@ -381,7 +381,7 @@ let config = {"content": [
     "DishName": "Dahl Curry",
     "DishDescrip": "Dahl Curry",
     "DishCost": "£14",
-    "URL": "./images/menuimg/001_ChickenRoll.png"
+    "URL": "./images/menuimg/047_Dahl Curry.png"
   },
   {
     "Category": "MainCourse",
