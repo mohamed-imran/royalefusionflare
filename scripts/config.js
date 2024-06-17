@@ -1488,7 +1488,7 @@ let config = {
       DishCost: "£10",
       URL: "./images/menuimg/001_ChickenRoll.png",
       isVeg: false,
-      spicelevel: 1,
+      spicelevel: 0,
     },
     {
       Category: "Sides",
@@ -1498,7 +1498,7 @@ let config = {
       DishCost: "£11",
       URL: "./images/menuimg/001_ChickenRoll.png",
       isVeg: false,
-      spicelevel: 1,
+      spicelevel: 0,
     },
     {
       Category: "Sides",
@@ -1508,7 +1508,7 @@ let config = {
       DishCost: "£12",
       URL: "./images/menuimg/001_ChickenRoll.png",
       isVeg: false,
-      spicelevel: 1,
+      spicelevel: 0,
     },
     {
       Category: "Sides",
@@ -1518,7 +1518,7 @@ let config = {
       DishCost: "£13",
       URL: "./images/menuimg/001_ChickenRoll.png",
       isVeg: false,
-      spicelevel: 1,
+      spicelevel: 0,
     },
     {
       Category: "Drinks",
@@ -1528,7 +1528,7 @@ let config = {
       DishCost: "£14",
       URL: "./images/menuimg/001_ChickenRoll.png",
       isVeg: false,
-      spicelevel: 1,
+      spicelevel: 0,
     },
     {
       Category: "Drinks",
@@ -1538,7 +1538,7 @@ let config = {
       DishCost: "£15",
       URL: "./images/menuimg/001_ChickenRoll.png",
       isVeg: false,
-      spicelevel: 1,
+      spicelevel: 0,
     },
     {
       Category: "Drinks",
@@ -1548,7 +1548,7 @@ let config = {
       DishCost: "£13",
       URL: "./images/menuimg/001_ChickenRoll.png",
       isVeg: false,
-      spicelevel: 1,
+      spicelevel: 0,
     },
     {
       Category: "Drinks",
@@ -1558,7 +1558,7 @@ let config = {
       DishCost: "£14",
       URL: "./images/menuimg/001_ChickenRoll.png",
       isVeg: false,
-      spicelevel: 1,
+      spicelevel: 0,
     },
     {
       Category: "Drinks",
@@ -1568,7 +1568,7 @@ let config = {
       DishCost: "£15",
       URL: "./images/menuimg/001_ChickenRoll.png",
       isVeg: false,
-      spicelevel: 1,
+      spicelevel: 0,
     },
     {
       Category: "Drinks",
@@ -1578,7 +1578,7 @@ let config = {
       DishCost: "£10",
       URL: "./images/menuimg/001_ChickenRoll.png",
       isVeg: false,
-      spicelevel: 1,
+      spicelevel: 0,
     },
     {
       Category: "Drinks",
@@ -1588,7 +1588,7 @@ let config = {
       DishCost: "£11",
       URL: "./images/menuimg/001_ChickenRoll.png",
       isVeg: false,
-      spicelevel: 1,
+      spicelevel: 0,
     },
     {
       Category: "Drinks",
@@ -1598,7 +1598,7 @@ let config = {
       DishCost: "£12",
       URL: "./images/menuimg/001_ChickenRoll.png",
       isVeg: false,
-      spicelevel: 1,
+      spicelevel: 0,
     },
     {
       Category: "Drinks",
@@ -1608,7 +1608,7 @@ let config = {
       DishCost: "£13",
       URL: "./images/menuimg/001_ChickenRoll.png",
       isVeg: false,
-      spicelevel: 1,
+      spicelevel: 0,
     },
     {
       Category: "Drinks",
@@ -1618,7 +1618,7 @@ let config = {
       DishCost: "£14",
       URL: "./images/menuimg/001_ChickenRoll.png",
       isVeg: false,
-      spicelevel: 1,
+      spicelevel: 0,
     },
   ],
 };
