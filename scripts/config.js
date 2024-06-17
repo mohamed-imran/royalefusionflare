@@ -389,7 +389,7 @@ let config = {"content": [
     "DishName": "Chettinadu Chicken Gravy",
     "DishDescrip": "Chettinadu Chicken Gravy",
     "DishCost": "£15",
-    "URL": "./images/menuimg/001_ChickenRoll.png"
+    "URL": "./images/menuimg/048_Chettinad Chicken Gravy.png"
   },
   {
     "Category": "MainCourse",
@@ -397,7 +397,7 @@ let config = {"content": [
     "DishName": "Chettinadu Lamb Gravy",
     "DishDescrip": "Chettinadu Lamb Gravy",
     "DishCost": "£10",
-    "URL": "./images/menuimg/001_ChickenRoll.png"
+    "URL": "./images/menuimg/049_Chettinadu Lamb Gravy.png"
   },
   {
     "Category": "MainCourse",
@@ -405,7 +405,7 @@ let config = {"content": [
     "DishName": "Chicken Manjurian",
     "DishDescrip": "Chicken Manjurian",
     "DishCost": "£11",
-    "URL": "./images/menuimg/001_ChickenRoll.png"
+    "URL": "./images/menuimg/050_Chicken manchurian gravy.png"
   },
   {
     "Category": "MainCourse",
@@ -413,7 +413,7 @@ let config = {"content": [
     "DishName": "Chilli Chicken",
     "DishDescrip": "Chilli Chicken",
     "DishCost": "£12",
-    "URL": "./images/menuimg/001_ChickenRoll.png"
+    "URL": "./images/menuimg/051_Chilli Chicken.png"
   },
   {
     "Category": "MainCourse",
@@ -421,7 +421,7 @@ let config = {"content": [
     "DishName": "Ginger Chicken",
     "DishDescrip": "Ginger Chicken",
     "DishCost": "£13",
-    "URL": "./images/menuimg/001_ChickenRoll.png"
+    "URL": "./images/menuimg/052_Ginger Chicken.png"
   },
   {
     "Category": "MainCourse",
@@ -429,7 +429,7 @@ let config = {"content": [
     "DishName": "Garlic Chicken",
     "DishDescrip": "Garlic Chicken",
     "DishCost": "£14",
-    "URL": "./images/menuimg/001_ChickenRoll.png"
+    "URL": "./images/menuimg/053_Garlic Chicken.png"
   },
   {
     "Category": "MainCourse",
@@ -437,7 +437,7 @@ let config = {"content": [
     "DishName": "Pepper Chicken",
     "DishDescrip": "Pepper Chicken",
     "DishCost": "£15",
-    "URL": "./images/menuimg/001_ChickenRoll.png"
+    "URL": "./images/menuimg/054_Pepper Chicken.png"
   },
   {
     "Category": "MainCourse",
@@ -445,7 +445,7 @@ let config = {"content": [
     "DishName": "Kadai Chicken",
     "DishDescrip": "Kadai Chicken",
     "DishCost": "£10",
-    "URL": "./images/menuimg/001_ChickenRoll.png"
+    "URL": "./images/menuimg/055_Kadai Chicken.png"
   },
   {
     "Category": "MainCourse",
@@ -453,7 +453,7 @@ let config = {"content": [
     "DishName": "Butter Chicken",
     "DishDescrip": "Butter Chicken",
     "DishCost": "£11",
-    "URL": "./images/menuimg/001_ChickenRoll.png"
+    "URL": "./images/menuimg/056_Butter Chicken.png"
   },
   {
     "Category": "MainCourse",
@@ -461,7 +461,7 @@ let config = {"content": [
     "DishName": "Mutton Masala",
     "DishDescrip": "Mutton Masala",
     "DishCost": "£12",
-    "URL": "./images/menuimg/001_ChickenRoll.png"
+    "URL": "./images/menuimg/057_Mutton Masala.png"
   },
   {
     "Category": "MainCourse",
@@ -469,7 +469,7 @@ let config = {"content": [
     "DishName": "Prawn Masala",
     "DishDescrip": "Prawn Masala",
     "DishCost": "£13",
-    "URL": "./images/menuimg/001_ChickenRoll.png"
+    "URL": "./images/menuimg/058_Prawn Masala.png"
   },
   {
     "Category": "MainCourse",
@@ -477,7 +477,7 @@ let config = {"content": [
     "DishName": "Prawn Thokku",
     "DishDescrip": "Prawn Thokku",
     "DishCost": "£14",
-    "URL": "./images/menuimg/001_ChickenRoll.png"
+    "URL": "./images/menuimg/059_Prawn Thokku.png"
   },
   {
     "Category": "MainCourse",
@@ -485,7 +485,7 @@ let config = {"content": [
     "DishName": "Hyderabad Chicken",
     "DishDescrip": "Hyderabad Chicken",
     "DishCost": "£15",
-    "URL": "./images/menuimg/001_ChickenRoll.png"
+    "URL": "./images/menuimg/060_Hyderabad Chicken.png"
   },
   {
     "Category": "MainCourse",
@@ -493,7 +493,7 @@ let config = {"content": [
     "DishName": "Punjabi Chicken",
     "DishDescrip": "Punjabi Chicken",
     "DishCost": "£10",
-    "URL": "./images/menuimg/001_ChickenRoll.png"
+    "URL": "./images/menuimg/061_Punjabi Chicken.png"
   },
   {
     "Category": "MainCourse",
@@ -501,7 +501,7 @@ let config = {"content": [
     "DishName": "Fish Gravy",
     "DishDescrip": "Fish Gravy",
     "DishCost": "£11",
-    "URL": "./images/menuimg/001_ChickenRoll.png"
+    "URL": "./images/menuimg/062_Fish Gravy.png"
   },
   {
     "Category": "MainCourse",
@@ -509,7 +509,7 @@ let config = {"content": [
     "DishName": "Thalcha",
     "DishDescrip": "Thalcha",
     "DishCost": "£12",
-    "URL": "./images/menuimg/001_ChickenRoll.png"
+    "URL": "./images/menuimg/063_Dalcha.png"
   },
   {
     "Category": "MainCourse",
@@ -517,7 +517,7 @@ let config = {"content": [
     "DishName": "Lamb Gravy",
     "DishDescrip": "Lamb Gravy",
     "DishCost": "£13",
-    "URL": "./images/menuimg/001_ChickenRoll.png"
+    "URL": "./images/menuimg/064_Lamb Gravy.png"
   },
   {
     "Category": "MainCourse",
@@ -525,7 +525,7 @@ let config = {"content": [
     "DishName": "Chicken Gravy",
     "DishDescrip": "Chicken Gravy",
     "DishCost": "£14",
-    "URL": "./images/menuimg/001_ChickenRoll.png"
+    "URL": "./images/menuimg/065_Chicken Gravy.png"
   },
   {
     "Category": "MainCourse",
@@ -533,7 +533,7 @@ let config = {"content": [
     "DishName": "Malaysian Chicken Fried Rice",
     "DishDescrip": "Malaysian Chicken Fried Rice",
     "DishCost": "£15",
-    "URL": "./images/menuimg/001_ChickenRoll.png"
+    "URL": "./images/menuimg/065_Chicken Gravy.png"
   },
   {
     "Category": "MainCourse",
