@@ -93,7 +93,7 @@ for (let i = 0; i < config.content.length; i++) {
   }
 
   if (i == config.content.length - 1) {
-    console.log("Last Item");
+    //console.log("Last Item");
 
     var content_container = document.getElementById("content-container");
     content_container.innerHTML += sectionContent(htmlContent);
@@ -164,7 +164,7 @@ function columnTemplate(itemname, itemdesc, itemprice, url, flag) {
             <div class="col-lg-6 col-md-12">
                 <img class="img-responsive" src="${url}">
             </div>
-            <div class="col-lg-6 col-md-12">
+            <div class="col-lg-6 col-md-12 menu-detail">
                 <h4>${itemname}  ${flag ? "-" : ""} ${itemprice}</h4>
                 <p style="color:black !important; font-style: italic;">${itemdesc}</p>
             </div>
