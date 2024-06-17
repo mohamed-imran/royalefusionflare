@@ -330,28 +330,54 @@
     </footer>
 
     <script>
-      var rowCount = 0;
+      let rowCount = 0;
       var htmlContent = "";
-      var categoryName = "";
-      var SubCategoryName = "";
-      var rowContent = "";
+      let categoryName = "";
+      let prevCategoryName = "";
+      let SubCategoryName = "";
+      let prevSubCategoryName = "";
+      let rowContent = "";
 
       for(let i=0; i<config.content.length; i++) {
         //console.log(i);
         var content = config.content[i];
-          //console.log(content.Category +" " +content.SubCategory+" " +content.DishName +" " +content.DishDescrip  +" " +content.DishCost);
+          //console.log("i: " + i + " " +content.Category +" " +content.SubCategory+" " +content.DishName +" " +content.DishDescrip  +" " +content.DishCost);
+          //console.log("i: " + i + " " +content.Category +" " +content.SubCategory+" i === 0 " + (i === 0 ) 
+          //+ " categoryName: " + categoryName 
+          //+ " content.Category: " + content.Category 
+          //+ " SubCategoryName: " + SubCategoryName 
+          //+ " content.SubCategory: " + content.SubCategory 
+          //+ " prevCategoryName: " + prevCategoryName 
+          //+ " prevSubCategoryName: " + prevSubCategoryName
+          //+" (prevCategoryName === content.categoryName && prevSubCategoryName===content.SubCategory) " 
+          //+ (prevCategoryName === content.categoryName && prevSubCategoryName===content.SubCategory)  
+          //+" (prevCategoryName === content.categoryName) " +(prevCategoryName === content.categoryName));
           
-          if(i == 0){
+          if(i === 0 ){
             categoryName = content.Category;
             SubCategoryName = content.SubCategory;
-            htmlContent += getCategorySubCategory(categoryName, SubCategoryName, true);
-          }
+            htmlContent += getCategorySubCategory(categoryName, SubCategoryName, true, true);
+          }else {
+            if(prevCategoryName === content.Category && prevSubCategoryName === content.SubCategory){
+              categoryName = content.Category;
+              SubCategoryName = content.SubCategory;
+              htmlContent += getCategorySubCategory(categoryName, SubCategoryName, false, false);
+            }else if(prevCategoryName === content.Category){
+              categoryName = content.Category;
+              SubCategoryName = content.SubCategory;
+              htmlContent += getCategorySubCategory(categoryName, SubCategoryName, false, true);
+            }
+            else{
+              categoryName = content.Category;
+              SubCategoryName = content.SubCategory;
+              htmlContent += getCategorySubCategory(categoryName, SubCategoryName, true, true);
+            }
 
-          if(SubCategoryName != content.SubCategory){
-            categoryName = content.Category;
-            SubCategoryName = content.SubCategory;
-            htmlContent += getCategorySubCategory(categoryName, SubCategoryName, true);
           }
+          prevCategoryName = content.Category;
+          prevSubCategoryName = content.SubCategory;
+         
+
           var columnFlag = true;
           if(content.DishName==""){columnFlag=false;}
 
@@ -389,7 +415,7 @@
 
       }
 
-      function getCategorySubCategory(Category, SubCategory, flag){
+      function getCategorySubCategory(Category, SubCategory, flag, subflag){
         var template = `
         <div class="row  text-center filter ${Category}">
          <!--Div row text-center Start --> 
@@ -397,7 +423,8 @@
             <!--Div col-md-12 Start --> 
             ${flag ? '<h1 class="display-4" style="letter-spacing: 20px; ">' +Category+ '</h1>' : ''}
             
-            <h3 style="letter-spacing: 15px; ">${SubCategory}</h3>
+            ${subflag ? '<h3 style="letter-spacing: 15px; ">' +SubCategory+ '</h3>' : ''}
+
 
           </div>
           <!--Div col-md-12 End --> 
