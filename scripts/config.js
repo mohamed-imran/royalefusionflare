@@ -277,7 +277,7 @@ let config = {"content": [
     "DishName": "Chicken Biriyani",
     "DishDescrip": "Chicken Biriyani",
     "DishCost": "£13",
-    "URL": "./images/menuimg/001_ChickenRoll.png"
+    "URL": "./images/menuimg/034_Chicken Biriyani.png"
   },
   {
     "Category": "MainCourse",
@@ -285,7 +285,7 @@ let config = {"content": [
     "DishName": "Lamb Biriyani",
     "DishDescrip": "Lamb Biriyani",
     "DishCost": "£14",
-    "URL": "./images/menuimg/001_ChickenRoll.png"
+    "URL": "./images/menuimg/035_Lamb Biriyani.png"
   },
   {
     "Category": "MainCourse",
@@ -293,7 +293,7 @@ let config = {"content": [
     "DishName": "Veg Biriyani",
     "DishDescrip": "Veg Biriyani",
     "DishCost": "£15",
-    "URL": "./images/menuimg/001_ChickenRoll.png"
+    "URL": "./images/menuimg/036_Veg Biriyani.png"
   },
   {
     "Category": "MainCourse",
@@ -301,7 +301,7 @@ let config = {"content": [
     "DishName": "Chicken 65 Biriyani",
     "DishDescrip": "Chicken 65 Biriyani",
     "DishCost": "£10",
-    "URL": "./images/menuimg/001_ChickenRoll.png"
+    "URL": "./images/menuimg/037_Chicken 65 Biriyani.png"
   },
   {
     "Category": "MainCourse",
@@ -309,7 +309,7 @@ let config = {"content": [
     "DishName": "Prawn Biryani",
     "DishDescrip": "Prawn Biryani",
     "DishCost": "£11",
-    "URL": "./images/menuimg/001_ChickenRoll.png"
+    "URL": "./images/menuimg/038_Prawn Biryani.png"
   },
   {
     "Category": "MainCourse",
@@ -317,7 +317,7 @@ let config = {"content": [
     "DishName": "Egg Biriyani",
     "DishDescrip": "Egg Biriyani",
     "DishCost": "£12",
-    "URL": "./images/menuimg/001_ChickenRoll.png"
+    "URL": "./images/menuimg/039_Egg Biriyani.png"
   },
   {
     "Category": "MainCourse",
